@@ -1,0 +1,323 @@
+[08-Jan-2019 07:12:44 Asia/Kathmandu] PHP Notice:  Undefined variable: x in C:\xampp\htdocs\php7am\App\Controllers\Frontend\ApplicationController.php on line 14
+[08-Jan-2019 07:13:16 Asia/Kathmandu] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in C:\xampp\htdocs\php7am\App\Controllers\Frontend\ApplicationController.php on line 15
+[08-Jan-2019 07:20:06 Asia/Kathmandu] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 151
+[08-Jan-2019 07:20:06 Asia/Kathmandu] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\xampp\htdocs\php7am\system\Database.php on line 117
+[08-Jan-2019 07:20:06 Asia/Kathmandu] PHP Warning:  array_merge(): Argument #1 is not an array in C:\xampp\htdocs\php7am\system\Database.php on line 117
+[08-Jan-2019 07:20:06 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\system\Database.php on line 120
+[08-Jan-2019 07:37:48 Asia/Kathmandu] PHP Notice:  Undefined property: Application\App\Controllers\Backend\UserController::$privilegeObject in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 192
+[08-Jan-2019 07:37:48 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to a member function SelectBy() on null in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php:192
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\Route.php(30): Application\App\Controllers\Backend\UserController->editUser()
+#1 C:\xampp\htdocs\php7am\system\Route.php(61): Application\system\Route->callController('Backend\\UserCon...')
+#2 C:\xampp\htdocs\php7am\route\web.php(40): Application\system\Route->get('admin/edit-user', 'Backend\\UserCon...', Array)
+#3 C:\xampp\htdocs\php7am\system\App.php(20): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#5 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 192
+[08-Jan-2019 07:37:52 Asia/Kathmandu] PHP Notice:  Undefined property: Application\App\Controllers\Backend\UserController::$privilegeObject in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 192
+[08-Jan-2019 07:37:52 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to a member function SelectBy() on null in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php:192
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\Route.php(30): Application\App\Controllers\Backend\UserController->editUser()
+#1 C:\xampp\htdocs\php7am\system\Route.php(61): Application\system\Route->callController('Backend\\UserCon...')
+#2 C:\xampp\htdocs\php7am\route\web.php(40): Application\system\Route->get('admin/edit-user', 'Backend\\UserCon...', Array)
+#3 C:\xampp\htdocs\php7am\system\App.php(20): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#5 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 192
+[08-Jan-2019 07:38:22 Asia/Kathmandu] PHP Warning:  require_once(pages/privilege/edit-user.views.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[08-Jan-2019 07:38:22 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/privilege/edit-user.views.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[08-Jan-2019 07:38:33 Asia/Kathmandu] PHP Warning:  require_once(pages/users/edit-user.views.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[08-Jan-2019 07:38:33 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/users/edit-user.views.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[08-Jan-2019 07:39:25 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:39:25 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:39:37 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:39:37 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:40:22 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:40:22 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:40:33 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 07:40:34 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\users\edit-user.views.php on line 64
+[08-Jan-2019 08:13:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'password' of non-object in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 272
+[08-Jan-2019 08:14:08 Asia/Kathmandu] PHP Notice:  Trying to get property 'password' of non-object in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 272
+[08-Jan-2019 08:16:34 Asia/Kathmandu] PHP Notice:  Trying to get property 'password' of non-object in C:\xampp\htdocs\php7am\App\Controllers\Backend\UserController.php on line 272
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:18:53 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:19:07 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:19:07 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:19:07 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:19:07 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:19:44 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:19:44 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:19:44 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:19:44 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:19:47 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:19:47 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:19:47 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:19:47 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:19:50 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:19:50 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:19:50 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:19:50 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:08 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:08 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:08 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:08 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:17 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:17 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:17 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:17 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:20 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:20 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:20 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:20 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:20:26 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:20:26 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:20:26 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:20:26 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:21:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:21:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:21:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:21:05 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:23:32 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:23:32 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:24:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:24:04 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:24:10 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:24:10 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[08-Jan-2019 08:24:25 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[08-Jan-2019 08:24:25 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[08-Jan-2019 08:24:25 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[08-Jan-2019 08:24:25 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[09-Jan-2019 07:05:57 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 14
+[09-Jan-2019 07:35:54 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-slider.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:35:54 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-slider.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:35:58 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-slider.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:35:58 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-slider.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:36:55 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-slider.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:36:55 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-slider.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:36:59 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-slider.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:36:59 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-slider.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:37:35 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-sliders.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:37:35 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-sliders.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:38:28 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-sliders.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:38:28 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-sliders.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:38:31 Asia/Kathmandu] PHP Warning:  require_once(pages/sliders/add-sliders.view.php): failed to open stream: No such file or directory in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:38:31 Asia/Kathmandu] PHP Fatal error:  require_once(): Failed opening required 'pages/sliders/add-sliders.view.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\php7am\view\backend\master.php on line 6
+[09-Jan-2019 07:39:56 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:39:56 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:39:58 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:39:58 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:40:04 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:40:04 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:40:30 Asia/Kathmandu] PHP Notice:  Undefined variable: privilegeData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 07:40:30 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\add-slider.view.php on line 64
+[09-Jan-2019 08:13:46 Asia/Kathmandu] PHP Notice:  Undefined variable: userData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:13:47 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:13:53 Asia/Kathmandu] PHP Notice:  Undefined variable: userData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:13:53 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:14:14 Asia/Kathmandu] PHP Notice:  Undefined variable: userData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:14:14 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 48
+[09-Jan-2019 08:15:31 Asia/Kathmandu] PHP Notice:  Undefined variable: liderData in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 45
+[09-Jan-2019 08:15:31 Asia/Kathmandu] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 45
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:15:56 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[09-Jan-2019 08:16:05 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:16:05 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[09-Jan-2019 08:16:05 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:16:05 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[09-Jan-2019 08:16:06 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[09-Jan-2019 08:16:06 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[10-Jan-2019 07:10:09 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[10-Jan-2019 07:10:09 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[10-Jan-2019 07:10:09 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[10-Jan-2019 07:10:09 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[10-Jan-2019 07:10:09 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[10-Jan-2019 07:10:11 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[10-Jan-2019 07:10:11 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[10-Jan-2019 07:10:11 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[10-Jan-2019 07:10:11 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[10-Jan-2019 07:10:11 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[13-Jan-2019 14:27:46 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[14-Jan-2019 14:25:06 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:06 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:06 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:07 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:08 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:08 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:32 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:25:32 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(20): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:27:40 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(31): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:27:40 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(31): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:04 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(29): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:04 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(29): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:33 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(28): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:34 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(28): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:36 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(28): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[14-Jan-2019 14:29:36 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Class 'Route' not found in C:\xampp\htdocs\php7am\route\web.php:4
+Stack trace:
+#0 C:\xampp\htdocs\php7am\system\App.php(28): require_once()
+#1 C:\xampp\htdocs\php7am\bootstrap\app.php(11): Application\system\App->run()
+#2 C:\xampp\htdocs\php7am\public\index.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\php7am\route\web.php on line 4
+[17-Jan-2019 07:45:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[17-Jan-2019 07:45:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[17-Jan-2019 07:45:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[17-Jan-2019 07:45:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[17-Jan-2019 07:45:51 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[17-Jan-2019 07:45:52 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[17-Jan-2019 07:45:52 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[17-Jan-2019 07:45:52 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[17-Jan-2019 07:45:52 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[17-Jan-2019 07:45:52 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[21-Jan-2019 08:13:48 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[21-Jan-2019 08:13:49 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[21-Jan-2019 08:13:49 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 73
+[21-Jan-2019 08:14:23 Asia/Kathmandu] PHP Notice:  Undefined property: stdClass::$u_id in C:\xampp\htdocs\php7am\view\backend\pages\sliders\show-slider.view.php on line 75
+[24-Jan-2019 13:39:22 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[24-Jan-2019 13:39:22 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[24-Jan-2019 13:39:22 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[24-Jan-2019 13:39:22 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[24-Jan-2019 13:39:22 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21
+[24-Jan-2019 13:39:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 12
+[24-Jan-2019 13:39:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\aside.php on line 16
+[24-Jan-2019 13:39:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'image' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 13
+[24-Jan-2019 13:39:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'username' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 15
+[24-Jan-2019 13:39:23 Asia/Kathmandu] PHP Notice:  Trying to get property 'u_id' of non-object in C:\xampp\htdocs\php7am\view\backend\layouts\top.php on line 21

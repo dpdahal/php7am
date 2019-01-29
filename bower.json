@@ -1,0 +1,17 @@
+{
+  "name": "php7am",
+  "homepage": "https://github.com/dpdahal/php7am",
+  "authors": [
+    "dpdahal <dp48dahal@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
